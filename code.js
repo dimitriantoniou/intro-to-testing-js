@@ -10,3 +10,12 @@ function sayHello(input){
     }
     return "Hello, " + input + "!";
 };
+
+//isFive function
+function isFive(input){
+    if (typeof input === 'boolean' && input === 5){
+        return true;
+    }else{
+        return false;
+    };
+};
