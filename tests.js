@@ -56,5 +56,11 @@ describe('isVowel',function(){
     });
     it('should return a boolean when called',function(){
         expect(typeof isVowel()).toBe("boolean");
-    })
+    });
+    it('should return true when executed',function(){
+        expect(isVowel("a")).toBe(true);
+    });
+    it('should return true when executed',function(){
+        expect(isVowel("A")).toBe(true);
+    });
 });

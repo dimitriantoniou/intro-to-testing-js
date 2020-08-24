@@ -22,7 +22,7 @@ function isFive(input){
 
 //isVowel function
 function isVowel(input){
-    if (typeof input === "string"){
+    if (typeof input === "string" && (input === "a" || input ==="A")){
         return true;
     }else{
         return false;
