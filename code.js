@@ -19,3 +19,12 @@ function isFive(input){
         return false;
     };
 };
+
+//isVowel function
+function isVowel(input){
+    if (typeof input === "string"){
+        return true;
+    }else{
+        return false;
+    }
+}
