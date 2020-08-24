@@ -87,8 +87,7 @@ describe('add',function(){
     it('should be a defined function',function(){
         expect(typeof add).toBe('function');
     });
-    it('should return a number when executed',function(){
-        expect(typeof add()).toBe('number');
+    it('should return NaN when passed not a number',function(){
+        expect (add(a,b).toBe('NaN'));
     });
-
 });

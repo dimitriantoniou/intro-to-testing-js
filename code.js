@@ -31,7 +31,7 @@ function isVowel(input){
 
 //add function
 function add(a,b){
-    if (typeof a === 'number' && typeof b === 'number') {
-        return (a + b);
+    if (isNaN(a) === true || isNaN(b) === true){
+        return 'NaN';
     }
 }
